@@ -3,15 +3,15 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDvXKC2j1JhoRHZUWM02qbedSQOC62p5WA",
-  authDomain: "mymoney-eb972.firebaseapp.com",
-  projectId: "mymoney-eb972",
-  storageBucket: "mymoney-eb972.appspot.com",
-  messagingSenderId: "244712849023",
-  appId: "1:244712849023:web:7ca708d44a28503027494a",
+  apiKey: "AIzaSyDg7fd3Xi0xYNwZpiPJs3XDmbg1ZsuitOk",
+  authDomain: "mymoneyv2-fc2f3.firebaseapp.com",
+  projectId: "mymoneyv2-fc2f3",
+  storageBucket: "mymoneyv2-fc2f3.appspot.com",
+  messagingSenderId: "800632328094",
+  appId: "1:800632328094:web:af7836c63e02551bce508f",
 };
 
-// init firebase test
+// init firebase
 firebase.initializeApp(firebaseConfig);
 
 // init services
