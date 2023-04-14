@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 function App() {
   const { authIsReady } = useAuthContext();
 
+  // need to figure out the "redirect" function in react v6 (lesson 131)
+
   return (
     <div className="App">
       {authIsReady && (
