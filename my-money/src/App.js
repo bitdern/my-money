@@ -11,6 +11,7 @@ function App() {
   const { authIsReady } = useAuthContext();
 
   // need to figure out the "redirect" function in react v6 (lesson 131)
+  // --> conditional page rendering depending on whether or not a user is logged in.
 
   return (
     <div className="App">
